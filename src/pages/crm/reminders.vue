@@ -127,8 +127,8 @@ const onCreateItem = async (newItem) => {
 
 const onUpdateItem = async ({ index, item }) => {
   const apiRequestData = {
-    lead_id: item.lead_name,
-    contact_id: item.contact_name,
+    lead: item.lead_name,
+    contact: item.contact_name,
     message: item.message,
     remind_at: item.remind_at ? new Date(item.remind_at) : null,
   };
