@@ -21,8 +21,4 @@
     </v-bottom-navigation>
   </v-layout>
 </template>
-<script>
-export default {
-  data: () => ({ value: 0 }),
-};
-</script>
+<script></script>

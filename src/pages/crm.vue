@@ -2,8 +2,8 @@
 import { onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
 import { useAuth } from "../composables/useAuth";
-import Sidebar from "../components/Sidebar.vue";
-import Navbar from "../components/Navbar.vue";
+import Sidebar from "@/components/Sidebar.vue";
+import Navbar from "@/components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 
 const route = useRoute();
