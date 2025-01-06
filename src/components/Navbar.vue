@@ -66,7 +66,7 @@
   </v-app-bar>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const notifications = [
   { id: 1, text: "New message from Sarah", time: "5m ago" },
   { id: 2, text: "Meeting in 30 minutes", time: "10m ago" },
