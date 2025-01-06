@@ -25,16 +25,6 @@
         class="mb-1 transition-all"
       />
     </v-list>
-
-    <template #append>
-      <div class="px-4 py-3 border-t border-grey-darken-3">
-        <v-list-item
-          prepend-avatar="https://cdn.vuetifyjs.com/images/john.jpg"
-          :title="expanded ? 'John Doe' : ''"
-          :subtitle="expanded ? 'Admin' : ''"
-        />
-      </div>
-    </template>
   </v-navigation-drawer>
 </template>
 
@@ -80,7 +70,7 @@ const menuItems = [
 
 <style scoped>
 .v-list-item--active:hover {
-  background-color: rgb(var(--v-theme-primary)) !important;
+  background-color: #4f55c1 !important;
 }
 
 .v-list-item:not(.v-list-item--active):hover {
